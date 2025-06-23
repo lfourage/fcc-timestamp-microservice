@@ -1,0 +1,24 @@
+{
+  "name": "timestamp",
+  "version": "0.1.0",
+  "description": "🔗 **Live Website**: [https://lfourage.github.io/-Project-Name/](https://lfourage.github.io/-Project-Name/)",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "dotenv": "^16.0.1",
+    "express": "^5.1.0"
+  },
+  "scripts": {
+    "start": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lfourage/fcc-timestamp-microservice.git"
+  },
+  "author": "lfourage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lfourage/fcc-timestamp-microservice/issues"
+  },
+  "homepage": "https://github.com/lfourage/fcc-timestamp-microservice#readme"
+}
