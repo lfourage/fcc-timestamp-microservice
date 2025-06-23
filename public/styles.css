@@ -3,10 +3,13 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  color: #222;
-  background-color: #fafafa;
+  color: white;
+  background-color: black;
   text-align: center;
   line-height: 1.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {

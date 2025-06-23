@@ -10,6 +10,8 @@ app.listen(PORT, (error) => {
   else console.log("Error occurred, server can't start", error);
 });
 
+app.use('/public', express.static(__dirname + "/public"))
+
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");
 });
