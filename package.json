@@ -1,24 +1,28 @@
 {
-  "name": "timestamp",
-  "version": "0.1.0",
-  "description": "🔗 **Live Website**: [https://lfourage.github.io/-Project-Name/](https://lfourage.github.io/-Project-Name/)",
+  "name": "fcc-api-projects-boilerplate",
+  "version": "0.0.1",
+  "description": "An FCC Backend Challenge",
   "main": "index.js",
-  "dependencies": {
-    "body-parser": "^1.15.2",
-    "dotenv": "^16.0.1",
-    "express": "^5.1.0"
-  },
   "scripts": {
-    "start": "node --watch index.js"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.12.4",
+    "cors": "^2.8.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lfourage/fcc-timestamp-microservice.git"
+    "url": "https://github.com/freeCodeCamp/boilerplate-project-timestamp.git"
   },
-  "author": "lfourage",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lfourage/fcc-timestamp-microservice/issues"
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp/issues"
   },
-  "homepage": "https://github.com/lfourage/fcc-timestamp-microservice#readme"
+  "homepage": "https://github.com/freeCodeCamp/boilerplate-project-timestamp#readme",
+  "author": "freeCodeCamp <team@freecodecamp.org>",
+  "keywords": [
+    "node",
+    "express",
+    "freeCodeCamp"
+  ],
+  "license": "MIT"
 }
